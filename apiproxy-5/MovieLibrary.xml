@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="MovieLibrary">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1460235435657</CreatedAt>
+    <CreatedBy>bryan.c.wheeler@ucdenver.edu</CreatedBy>
+    <Description></Description>
+    <DisplayName>MovieLibrary</DisplayName>
+    <LastModifiedAt>1461014025495</LastModifiedAt>
+    <LastModifiedBy>bryan.c.wheeler@ucdenver.edu</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://package.json</Resource>
+        <Resource>node://server-usergrid.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
